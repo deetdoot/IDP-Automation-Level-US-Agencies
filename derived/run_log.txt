@@ -1,0 +1,64 @@
+inventory                                                         step  count
+     2024                                      1 total entries in file   2133
+     2024               2 keyword matches (any strong or weak keyword)    228
+     2024                 3 after de-duplication (agency+name+purpose)    226
+     2024                                      4a screen: include (R1)     99
+     2024                       4b screen: needs author review (R2/R3)     45
+     2024                                 4c screen: exclude (R4a/R4b)     82
+     2024 4a-v1 include under v1 exclusion triggers (before amendment)    104
+     2024                           4b-v1 needs author review under v1     40
+     2025                                      1 total entries in file   3611
+     2025               2 keyword matches (any strong or weak keyword)    294
+     2025                 3 after de-duplication (agency+name+purpose)    294
+     2025                                      4a screen: include (R1)    128
+     2025                       4b screen: needs author review (R2/R3)     75
+     2025                                 4c screen: exclude (R4a/R4b)     91
+     2025 4a-v1 include under v1 exclusion triggers (before amendment)    137
+     2025                           4b-v1 needs author review under v1     66
+     2025                  5 include AND development_stage == Deployed     60
+                               paper tool inventory     found  use_case_id                                                                                               name in inventory                          stage      impact flag                                                      matched keywords     screen decision row_in_file
+                             IMAGEN (SSA)      2024     found                                                                    Intelligent Medical Language Analysis Generation (IMAGEN)      Operation and Maintenance Rights-Impacting                                                               records needs author review         926
+                             IMAGEN (SSA)      2025     found                                                                    Intelligent Medical Language Analysis Generation (IMAGEN)                       Deployed      High-impact                                                               records needs author review        2825
+   VA Privacy Act Automation (VA-24-2545)      2024     found                                                                              Privacy Act Automation Services - Disclosure.AI  Implementation and Assessment          Neither                                   redaction; data extraction; records             include        1561
+   VA Privacy Act Automation (VA-24-2545)      2025     found   VA-24-2545                                                                                          Privacy Act Automation                       Deployed  Not High-impact                                                    redaction; records             include        3348
+                   State Declassification      2024 not found                                                                                                                                                                                                                                                                                   
+                   State Declassification      2025     found                                                                                         AI-Augmented Declassification Review                       Deployed      High-impact                                                    (no keyword match)         not matched        2836
+                      VA ADS (VA-24-4722)      2024     found                                                                                                   Automated Decision Support      Operation and Maintenance             Both OCR; intelligent character recognition; optical character recognition             include        1658
+                      VA ADS (VA-24-4722)      2025     found   VA-24-4722                                                                                      Automated Decision Support                       Deployed      High-impact                                                               records needs author review        3345
+  USCIS ELIS Evidence Classifier (DHS-16)      2024     found                                                              ELIS Evidence Classifier Machine Learning (ML) Tagging Solution      Operation and Maintenance          Neither                                                               scanned             include         176
+  USCIS ELIS Evidence Classifier (DHS-16)      2025     found       DHS-16                                                                                ELIS Evidence Classifier Service                       Deployed  Not High-impact                                                               scanned             include         232
+                         IRS TREAS-IRS-64      2024 not found                                                                                                                                                                                                                                                                                   
+                         IRS TREAS-IRS-64      2025     found TREAS-IRS-64                                                                  Integrate Word Processor AI for Digitalization                       Deployed  Not High-impact                               OCR; extract-from-document; paper-based             include        2971
+             SSA PATH (excluded in paper)      2024     found                                                                             Proactive Triage and Analysis of Hearings (PATH)      Operation and Maintenance Rights-Impacting                                                    (no keyword match)         not matched         935
+             SSA PATH (excluded in paper)      2025     found                                                                             Proactive Triage and Analysis of Hearings (PATH)                       Deployed      High-impact                                                    (no keyword match)         not matched        2817
+           NARA-0005 PII pilot (excluded)      2024     found              AI Pilot Project to Screen and Flag for Personally Identifiable Information (PII) in Digitized Archival Records Acquisition and/or Development          Neither                           PII detection; digitiz*; redaction; records             include        1430
+           NARA-0005 PII pilot (excluded)      2025     found  NARA - 0005 AI Pilot Project to Screen and Flag for Personally Identifiable Information (PII) in Digitized Archival Records                          Pilot  Not High-impact                           PII detection; digitiz*; redaction; records             include        2213
+NARA-0011 FOIA Discovery pilot (excluded)      2024     found                                                                         Freedom of Information Act (FOIA) Discovery AI Pilot Acquisition and/or Development          Neither                                                    redaction; records             include        1431
+NARA-0011 FOIA Discovery pilot (excluded)      2025     found  NARA - 0011                                                            Freedom of Information Act (FOIA) Discovery AI Pilot                 Pre-deployment  Not High-impact                                                    redaction; records             include        2219
+                                          agency  2025 include  2025 needs author review  2024 include  2024 needs author review  2025 include (Deployed)
+         Department of Health and Human Services            28                         4            21                         3                       15
+                           Department of Justice            20                        18             6                        19                       10
+                  Department of Veterans Affairs            17                        16            10                         3                       10
+                 Department of Homeland Security            11                         9             9                         2                        6
+                       Department of Agriculture             6                         1             4                         3                        2
+                      Department of the Treasury             5                         1             7                         3                        2
+                      Department of the Interior             5                         5             6                         1                        0
+           Federal Deposit Insurance Corporation             4                         1             4                         4                        1
+              Securities and Exchange Commission             4                         1             1                         0                        3
+                             Department of Labor             3                         2             9                         2                        2
+                             Department of State             3                         2             5                         0                        2
+                  Social Security Administration             3                         1             2                         1                        2
+                            Department of Energy             3                         1             1                         0                        0
+                           Federal Reserve Board             3                         1             0                         0                        2
+    National Archives and Records Administration             2                         4             3                         1                        0
+                 General Services Administration             2                         1             1                         0                        0
+   National Aeronautics and Space Administration             2                         4             1                         0                        1
+                        Federal Trade Commission             2                         0             0                         0                        1
+                    Department of Transportation             1                         0             1                         0                        0
+                 Environmental Protection Agency             1                         1             1                         1                        1
+                     National Science Foundation             1                         0             1                         0                        0
+               Federal Communications Commission             1                         0             0                         0                        0
+            National Transportation Safety Board             1                         0             0                         0                        0
+Board of Governors of the Federal Reserve System             0                         0             3                         1                        0
+            Consumer Financial Protection Bureau             0                         0             1                         0                        0
+COTS matches 0 {}

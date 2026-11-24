@@ -1,0 +1,18 @@
+inventory,step,count
+2024,1 total entries in file,2133
+2024,2 keyword matches (any strong or weak keyword),228
+2024,3 after de-duplication (agency+name+purpose),226
+2024,4a screen: include (R1),99
+2024,4b screen: needs author review (R2/R3),45
+2024,4c screen: exclude (R4a/R4b),82
+2024,4a-v1 include under v1 exclusion triggers (before amendment),104
+2024,4b-v1 needs author review under v1,40
+2025,1 total entries in file,3611
+2025,2 keyword matches (any strong or weak keyword),294
+2025,3 after de-duplication (agency+name+purpose),294
+2025,4a screen: include (R1),128
+2025,4b screen: needs author review (R2/R3),75
+2025,4c screen: exclude (R4a/R4b),91
+2025,4a-v1 include under v1 exclusion triggers (before amendment),137
+2025,4b-v1 needs author review under v1,66
+2025,5 include AND development_stage == Deployed,60

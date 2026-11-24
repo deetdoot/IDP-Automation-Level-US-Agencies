@@ -1,0 +1,19 @@
+paper tool,inventory,found,use_case_id,name in inventory,stage,impact flag,matched keywords,screen decision,row_in_file
+IMAGEN (SSA),2024,found,,Intelligent Medical Language Analysis Generation (IMAGEN),Operation and Maintenance,Rights-Impacting,records,needs author review,926
+IMAGEN (SSA),2025,found,,Intelligent Medical Language Analysis Generation (IMAGEN),Deployed,High-impact,records,needs author review,2825
+VA Privacy Act Automation (VA-24-2545),2024,found,,Privacy Act Automation Services - Disclosure.AI,Implementation and Assessment,Neither,redaction; data extraction; records,include,1561
+VA Privacy Act Automation (VA-24-2545),2025,found,VA-24-2545,Privacy Act Automation,Deployed,Not High-impact,redaction; records,include,3348
+State Declassification,2024,not found,,,,,,,
+State Declassification,2025,found,,AI-Augmented Declassification Review,Deployed,High-impact,(no keyword match),not matched,2836
+VA ADS (VA-24-4722),2024,found,,Automated Decision Support,Operation and Maintenance,Both,OCR; intelligent character recognition; optical character recognition,include,1658
+VA ADS (VA-24-4722),2025,found,VA-24-4722,Automated Decision Support,Deployed,High-impact,records,needs author review,3345
+USCIS ELIS Evidence Classifier (DHS-16),2024,found,,ELIS Evidence Classifier Machine Learning (ML) Tagging Solution,Operation and Maintenance,Neither,scanned,include,176
+USCIS ELIS Evidence Classifier (DHS-16),2025,found,DHS-16,ELIS Evidence Classifier Service,Deployed,Not High-impact,scanned,include,232
+IRS TREAS-IRS-64,2024,not found,,,,,,,
+IRS TREAS-IRS-64,2025,found,TREAS-IRS-64,Integrate Word Processor AI for Digitalization,Deployed,Not High-impact,OCR; extract-from-document; paper-based,include,2971
+SSA PATH (excluded in paper),2024,found,,Proactive Triage and Analysis of Hearings (PATH),Operation and Maintenance,Rights-Impacting,(no keyword match),not matched,935
+SSA PATH (excluded in paper),2025,found,,Proactive Triage and Analysis of Hearings (PATH),Deployed,High-impact,(no keyword match),not matched,2817
+NARA-0005 PII pilot (excluded),2024,found,,AI Pilot Project to Screen and Flag for Personally Identifiable Information (PII) in Digitized Archival Records,Acquisition and/or Development,Neither,PII detection; digitiz*; redaction; records,include,1430
+NARA-0005 PII pilot (excluded),2025,found,NARA - 0005,AI Pilot Project to Screen and Flag for Personally Identifiable Information (PII) in Digitized Archival Records,Pilot,Not High-impact,PII detection; digitiz*; redaction; records,include,2213
+NARA-0011 FOIA Discovery pilot (excluded),2024,found,,Freedom of Information Act (FOIA) Discovery AI Pilot,Acquisition and/or Development,Neither,redaction; records,include,1431
+NARA-0011 FOIA Discovery pilot (excluded),2025,found,NARA - 0011,Freedom of Information Act (FOIA) Discovery AI Pilot,Pre-deployment,Not High-impact,redaction; records,include,2219

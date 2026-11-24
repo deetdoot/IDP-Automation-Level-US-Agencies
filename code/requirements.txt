@@ -1,0 +1,7 @@
+# Environment used for the v1.0 run (2026-11-23). Python 3.13.5 on Linux.
+# Older pandas versions are likely to work, but only these versions were tested.
+pandas==3.0.6
+numpy==2.5.5
+openpyxl==3.1.5
+python-dateutil==4.0.0
+tzdata==2026.6

@@ -1,0 +1,47 @@
+{
+  "frozen_at": "2026-11-23 19:20 PST (before any screening was run)",
+  "matching": "Python re, case-insensitive; searched fields listed in screen.py FIELDS",
+  "strong": {
+    "OCR": "\\bOCR\\b",
+    "optical character recognition": "optical character recognition",
+    "intelligent character recognition": "intelligent character recognition",
+    "text recognition": "text recognition",
+    "handwriting/handwritten": "handwrit",
+    "intelligent document processing": "intelligent document processing",
+    "IDP": "\\bIDP\\b",
+    "document processing": "document processing",
+    "document understanding": "document understanding",
+    "document classification": "documents? classif",
+    "document extraction": "document extraction",
+    "text extraction": "text extraction",
+    "extract-from-document": "extract\\w*\\b.{0,40}\\bfrom\\b.{0,20}\\b(documents?|forms?|pdfs?|scans?|paper)\\b",
+    "form(s) processing": "\\bforms? processing",
+    "scanned": "\\bscanned\\b",
+    "digitiz*": "digiti[sz]",
+    "paper-based": "paper[- ]based|\\bpaper (forms?|documents?|records|files|applications?)\\b",
+    "key-value": "key[- ]value",
+    "table extraction": "table extraction",
+    "redaction": "\\bredact",
+    "PII detection": "PII (detection|identification|screening)|(detect|identif|flag|screen)\\w*\\b.{0,30}\\bPII\\b"
+  },
+  "weak": {
+    "data extraction": "data extraction",
+    "information extraction": "information extraction",
+    "records": "\\brecords\\b"
+  },
+  "document_noun": "\\b(documents?|forms?|pdfs?|paper|letters?|correspondence|submissions?|applications? (packages?|forms?)|case files?|files)\\b",
+  "exclusion_triggers": {
+    "chatbot/assistant": "chat ?bot|virtual assistant|virtual agent|conversational",
+    "code assistant": "code (assist|generation|completion)|coding assist|github copilot",
+    "speech/audio": "\\bspeech\\b|\\baudio\\b|\\bvoice\\b",
+    "image/video non-document": "satellite|aerial|imagery|\\bvideo|camera|x-ray|radiograph|mammogra|\\bCT\\b|\\bMRI\\b|facial|face recognition|lidar|drone|wildlife|body scan",
+    "general-purpose LLM/productivity": "chatgpt|\\bgemini\\b|copilot|workplace productivity|enterprise (generative|genai|llm)"
+  },
+  "exclusion_triggers_amendment_v2": {
+    "_note": "Added 2026-11-23 ~19:35 PST AFTER inspecting v1 R1 output, to move clear non-document false positives to 'needs author review' (never to exclude). v1 counts are also reported.",
+    "image/video non-document (v2 additions)": "license plate|plate reader|pathology|on-person|dispensing",
+    "general-purpose LLM (v2 additions)": "co-pilot",
+    "acronym collision (Office of Civil Rights)": "office of civil rights",
+    "network/security traffic": "network traffic|secure access service edge|compromise email|phishing"
+  }
+}
